@@ -26,7 +26,6 @@ header {
   padding: 10pt;
 }
 
-/*Unfinsihed*/
 /*To bold the items next to dots*/
 ul > li{
   font-style: normal;
@@ -44,8 +43,10 @@ ul > li{
   padding: 5px;
   font-family: Helvetica, Arial, sans-serif;
   color: white;
+  border-radius: 10px;
 
 }
+
 
 /*Gives the page a yellow oultine.*/
 body {
@@ -54,16 +55,7 @@ body {
   border-style: solid;
   border-color: yellow;
   padding: 10px;
-
-
 }
-
-/*I was trying to bold these terms and failed. Come back if there is time.*/
-/*a {
-  font-family: Helvetica, Arial, sans-serif;
-  color: white;
-}*/
-
 
 p {
   font-family: Helvetica, Arial, sans-serif;
@@ -115,7 +107,6 @@ tr > td {
     font-family: Helvetica, Arial, sans-serif;
     color: white;
     background-color: #1fabe5
-
   }
 
 
@@ -126,6 +117,15 @@ tr > td {
     padding: 0px;
     font-family: Helvetica, Arial, sans-serif;
     color: black;
+    border-radius: 10px;
+    max-width: 120%;
+  }
+
+/*Moves the form contents over to the left*/
+  form *{
+    margin-left: 5pt;
+    margin-right 5pt;
+    margin-bottom: 5pt;
   }
 
 /*Gives the first/last names an orange background and makes them white.*/
@@ -140,10 +140,8 @@ tr > td {
     border-color: white;
     max-width: 45%;
     margin-left: 10px;
-    margin-top: 0px;
-
-
-
+    margin-top: 10px;
+    border-radius: 10px;
   }
 
 /*Changes the in comment text font and size*/
@@ -172,6 +170,7 @@ tr > td {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 
