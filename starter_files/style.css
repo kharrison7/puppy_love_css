@@ -98,7 +98,7 @@ tr > td {
     border-width: 1px;
     border-style: solid;
     border-color: #1fabe5;
-    padding: 0px;
+    padding: 10px;
 
     font-family: Helvetica, Arial, sans-serif;
     color: black;
@@ -113,17 +113,6 @@ tr > td {
   }
 
 
-/*Space*/
-
-/*An attempt to make the upper thead contents have a black outline.*/
-  /*thead *{
-      margin: 0px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: black;
-      padding: 0px;
-    }*/
-
 /*Makes the form grey.*/
   form {
     background-color: #dddddd;
@@ -133,7 +122,7 @@ tr > td {
     color: black;
   }
 
-/*Gives the first/last names an orange backgroun and makes them white.*/
+/*Gives the first/last names an orange background and makes them white.*/
   .name {
     background-color: #ff8523;
     margin-top: 20px;
@@ -143,6 +132,10 @@ tr > td {
     border-width: 0px;
     border-style: solid;
     border-color: white;
+    max-width: 45%;
+    margin-left: 10px;
+    margin-top: 0px;
+
 
 
   }
@@ -173,4 +166,10 @@ tr > td {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+
+img {
+  max-width: 35%;
+  background-position: center center;
 }
