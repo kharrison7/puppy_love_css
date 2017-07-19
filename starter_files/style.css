@@ -12,3 +12,165 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+/*Makes the Header Background Orange*/
+header {
+  background-color: #ff8523;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+
+
+/*Unfinsihed*/
+/*To bold the items next to dots*/
+ul > li{
+  font-style: normal;
+}
+
+/*Gives the navigation words a white outline container*/
+.main_navigation *{
+  margin: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+
+}
+
+/*Gives the page a yellow oultine.*/
+body {
+  margin: 0px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: yellow;
+  padding: 0px;
+
+
+}
+
+/*I was trying to bold these terms and failed. Come back if there is time.*/
+/*a {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}*/
+
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  /*font-size: 2.5em*/
+}
+
+/*Gives color and font to h2 and H3.*/
+h2 {
+  color: #1fabe5;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h3 {
+  color: #1fabe5;
+}
+
+
+/*Gives the table a blue outline.*/
+table {
+     border-collapse: collapse;
+     margin: 0px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #1fabe5;
+     padding: 0px;
+
+/*Just wanted space here.*/
+     font-family: Helvetica, Arial, sans-serif;
+     color: black;
+   }
+
+/*A hover command I wanted to try. Turns contents grey.*/
+        tr:hover {background-color: #f5f5f5}
+
+
+/*Gives table boxes a blue outline.*/
+tr > td {
+    margin: 0px;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1fabe5;
+    padding: 0px;
+
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+  }
+
+/*This makes the top of the table blue with white text.*/
+  thead > tr > td {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #1fabe5
+
+  }
+
+
+/*Space*/
+
+/*An attempt to make the upper thead contents have a black outline.*/
+  /*thead *{
+      margin: 0px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 0px;
+    }*/
+
+/*Makes the form grey.*/
+  form {
+    background-color: #dddddd;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+  }
+
+/*Gives the first/last names an orange backgroun and makes them white.*/
+  .name {
+    background-color: #ff8523;
+    margin-top: 20px;
+    padding: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    border-width: 0px;
+    border-style: solid;
+    border-color: white;
+
+
+  }
+
+/*Changes the in comment text font and size*/
+#bio{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1fabe5;
+}
+
+.city_container.city{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+/*This changes the submit button to blue with white text*/
+  #submit_button{
+    background-color: #1fabe5; /* Green */
+    border: none;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
