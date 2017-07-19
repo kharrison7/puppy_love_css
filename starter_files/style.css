@@ -17,15 +17,22 @@ colors:
 header {
   background-color: #ff8523;
   margin-bottom: 3px;
-  padding: 5px;
+  padding: 20px;
 }
 
-
+/*Moves the logo*/
+#logo{
+  margin: 10pt;
+  padding: 10pt;
+}
 
 /*Unfinsihed*/
 /*To bold the items next to dots*/
 ul > li{
   font-style: normal;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 1.1em;
 }
 
 /*Gives the navigation words a white outline container*/
@@ -46,7 +53,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: yellow;
-  padding: 0px;
+  padding: 10px;
 
 
 }
@@ -60,7 +67,6 @@ body {
 
 p {
   font-family: Helvetica, Arial, sans-serif;
-  /*font-size: 2.5em*/
 }
 
 /*Gives color and font to h2 and H3.*/
